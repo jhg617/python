@@ -63,7 +63,7 @@ async def call_claude(promt:str, model:str = "claude-3-5-haiku-latest") -> str:
 async def main():
     print("동시에 API 호출하기 (재시도 로직 포함)")
     prompt = "비동기 프로그래밍에 대해 두 세문장으로 설명해 주세요"
-    result = await call_claude(prompt)
+    result = call_claude(prompt)
     
     try:
         #gather는 전체 작업 중 하나라도 실패하면 예외 발생
