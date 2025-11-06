@@ -5,8 +5,8 @@ pip install tenacity==8.2.3
 pip install anthropic==0.49.0
 pip install "fastapi[standard]"
 pip install python-multipart unicorn
-pip install lanchain[openai]==0.3.27
-pip install lanchain[anthropic]==0.3.27
+pip install langchain[openai]==0.3.27
+pip install langchain[anthropic]==0.3.27
 pip install pydantic
 pip install protobuf
 pip install chromadb
